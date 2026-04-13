@@ -38,15 +38,5 @@ Returns a friendly login message upon success or failure.
 Unit Testing
 Unit tests to validate username, password, and phone number rules.
 
------
 
-### Username Validation
-
-Enter a username (must include an underscore and ≤ 5 characters).
-Enter a password (must meet complexity rules).
-Enter a phone number (must start with +27 and have 12 digits).
-The system will confirm if registration was successful.
-Login
-Enter your registered username, password, and phone number.
-The system will display a personalized welcome message if successful, or an error message otherwise.
 
