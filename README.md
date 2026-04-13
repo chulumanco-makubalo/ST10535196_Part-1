@@ -12,10 +12,14 @@ Minimum 8 characters.
 At least 1 uppercase letter.
 At least 1 number.
 At least 1 special character.
-Validates South African phone numbers (+27) with correct length.
-User Login
+## Validates South African phone numbers (+27) with correct length.
+## User Login
 Checks if the entered username, password, and phone number match registered credentials.
 Returns a friendly login message upon success or failure.
 Unit Testing
 Unit tests to validate username, password, and phone number rules.
+Technologies Used
+## Java SE 8+
+JUnit 5 for testing
+NetBeans or any Java IDE for development
 
