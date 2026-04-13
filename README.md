@@ -16,5 +16,6 @@ Validates South African phone numbers (+27) with correct length.
 User Login
 Checks if the entered username, password, and phone number match registered credentials.
 Returns a friendly login message upon success or failure.
-
+Unit Testing
+Unit tests to validate username, password, and phone number rules.
 
