@@ -22,4 +22,8 @@ Technologies Used
 ## Java SE 8+
 JUnit 5 for testing
 NetBeans or any Java IDE for development
-
+## Setup
+Clone the repository or download the project files.
+Open in your IDE (NetBeans, IntelliJ, Eclipse, etc.).
+Compile and run Main.java to use the app.
+Run LoginTest.java to verify all validation rules with JUnit tests.
