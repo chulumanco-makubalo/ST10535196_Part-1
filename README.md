@@ -19,11 +19,36 @@ Returns a friendly login message upon success or failure.
 Unit Testing
 Unit tests to validate username, password, and phone number rules.
 Technologies Used
-## Java SE 8+
-JUnit 5 for testing
-NetBeans or any Java IDE for development
 ## Setup
 Clone the repository or download the project files.
 Open in your IDE (NetBeans, IntelliJ, Eclipse, etc.).
 Compile and run Main.java to use the app.
 Run LoginTest.java to verify all validation rules with JUnit tests.
+
+## Usage
+### Registration
+Enter a username (must include an underscore and ≤ 15 characters).
+Enter a password (must meet complexity rules).
+Enter a phone number (must start with +27 and have 12 digits).
+The system will confirm if registration was successful.
+Login
+Enter your registered username, password, and phone number.
+The system will display a personalized welcome message if successful, or an error message otherwise.
+Example Console Session
+=== USER REGISTRATION ===
+Enter a username: Chulu_
+Enter a password: CMANCO7_!
+Enter your South African cellphone number (+27): +27607790384
+User registered successfully.
+
+=== USER LOGIN ===
+Enter your username: Chulu_
+Enter your password: CMANCO7_!
+Enter your phone number (+27): +27607790384
+Welcome Chulu_, it is great to see you again.
+Notes
+Currently, the app supports a single user at a time.
+Future improvements can include:
+Multiple users with persistent storage.
+Password hashing for security.
+Graphical User Interface (GUI)
