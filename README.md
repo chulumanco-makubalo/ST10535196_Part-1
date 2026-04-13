@@ -12,3 +12,9 @@ Minimum 8 characters.
 At least 1 uppercase letter.
 At least 1 number.
 At least 1 special character.
+Validates South African phone numbers (+27) with correct length.
+User Login
+Checks if the entered username, password, and phone number match registered credentials.
+Returns a friendly login message upon success or failure.
+
+
